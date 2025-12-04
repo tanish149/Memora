@@ -1,2 +1,2 @@
-# ThinkBoard
+# Memora
 MERN Notes App

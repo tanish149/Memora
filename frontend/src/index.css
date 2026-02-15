@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes blinkDots {
+  0%   { opacity: 0; }
+  25%  { opacity: 1; }
+  50%  { opacity: 1; }
+  75%  { opacity: 0; }
+  100% { opacity: 0; } 
+}
+
+.dot1 { animation: blinkDots 1.5s infinite; }
+.dot2 { animation: blinkDots 1.5s infinite 0.3s; }
+.dot3 { animation: blinkDots 1.5s infinite 0.6s; }
